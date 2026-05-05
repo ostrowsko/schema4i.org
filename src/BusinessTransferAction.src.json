@@ -30,7 +30,7 @@
             },
             "Copy": {
                 "@id": "s4i:Copy",
-                "@type": "s4i:Copy"
+                "@type": "schema:Boolean"
             },
             "DateCreated": {
                 "@id": "schema:dateCreated",
