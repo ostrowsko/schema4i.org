@@ -1,6 +1,6 @@
 {
     "type": "EnumVehicleOwnershipCode_DE",
-    "uri": "http://schema4i.org/EnumVehicleOwnershipCode_DE",
+    "uri": "http://schema4i.org/EnumVehicleOwnershipCode",
     "description": "Einstelliger Code für die rechtliche Rolle eines Eigentums- oder Besitzverhältnisses.",
     "links": [{
         "url": "http://schema4i.org/EnumVehicleOwnershipCode",
