@@ -27,6 +27,11 @@
         "@context": {
             "@version": 1.1,
             "s4i": "http://schema4i.org/",
+            "EU member states": "s4i:EnumCountryCode#995",
+            "States outside the EU": "s4i:EnumCountryCode#996",
+            "Multi-Country": "s4i:EnumCountryCode#997",
+            "Other": "s4i:EnumCountryCode#998",
+            "Unknown": "s4i:EnumCountryCode#999",
             "Austria": "s4i:EnumCountryCode#A",
             "Afghanistan": "s4i:EnumCountryCode#AFG",
             "Antigua and Barbuda": "s4i:EnumCountryCode#AG",
