@@ -1,0 +1,41 @@
+{
+    "type": "Species",
+    "uri": "http://schema4i.org/Species",
+    "description": "A species is a group of living organisms that are similar enough to breed with each other and produce fertile offspring.",
+    "links": [],
+    "parents": [
+        { "@id": "http://schema4i.org/Animal#Species" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "AnimalUse": {
+                "@id": "s4i:Species",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumAnimalSpeciesCode#"
+                }
+            }
+        }
+    },
+    "playground": [{
+        "title": "Sample Species",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/Animal.jsonld",
+                "http://schema4i.org/Dog.jsonld",
+                "http://schema4i.org/Species.jsonld"
+            ],
+            "@type": "Dog",
+            "Species": "001"
+        },
+        "context": {}
+    }]
+}

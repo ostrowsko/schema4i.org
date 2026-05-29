@@ -57,6 +57,13 @@
             "LifeCycle": {
                 "@id": "s4i:LifeCycle",
                 "@type": "s4i:AnimalLifeCycleEvent"
+            },
+                         "Species": {
+                "@id": "s4i:Species",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumAnimalSpeciesCode#"
+                }
             }
         }
     },
@@ -81,8 +88,8 @@
                 }
             ],
             "@type": "Animal",
-            "Breed":  "Goldfish",
-            "Name": "Goldy",
+            "Breed":  "Brasilianisch Kurzhaar",
+            "Name": "Felix",
             "BirthDate": "2021-10-04",
             "Gender": "1",
             "Owner": {
@@ -103,7 +110,8 @@
                 },
                 "StartDate": "2021-10-04T12:00:00",
                 "EndDate": "2021-10-04T12:00:00"
-            }
+            },
+            "Species": "009"
         },
         "context": {}
     }]

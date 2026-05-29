@@ -1,0 +1,31 @@
+{
+    "type": "EnumAnimalSpeciesCode_DE",
+    "uri": "http://schema4i.org/EnumAnimalSpeciesCode_DE",
+    "description": "Ein Code der die Spezies eines Tieres beschreibt",
+    "links": [{
+        "url": "http://schema4i.org/EnumAnimalSpeciesCode",
+        "description": "Englische Dokumentation der Schlüsselwerte"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Animal#Species" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Hund": "s4i:EnumAnimalSpeciesCode#001",
+            "Pferd": "s4i:EnumAnimalSpeciesCode#002",
+            "Pony": "s4i:EnumAnimalSpeciesCode#003",
+            "Esel": "s4i:EnumAnimalSpeciesCode#004",
+            "Maultier": "s4i:EnumAnimalSpeciesCode#005",
+            "Maulesel": "s4i:EnumAnimalSpeciesCode#006",
+            "Frettchen": "s4i:EnumAnimalSpeciesCode#007",
+            "Vogel": "s4i:EnumAnimalSpeciesCode#008",
+            "Katze": "s4i:EnumAnimalSpeciesCode#009"
+        }
+    }
+}
