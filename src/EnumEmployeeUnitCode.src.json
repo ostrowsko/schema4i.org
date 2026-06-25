@@ -1,0 +1,40 @@
+{
+    "type": "EnumEmployeeUnitCode",
+    "uri": "http://schema4i.org/EnumEmployeeUnitCode",
+    "description": "A Code that describes the unit of an organization's employee count",
+    "links": [{
+            "url": "http://schema4i.org/EnumEmployeeUnitCode_DE",
+            "description": "Original German documentation"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/QuantitativeValue#UnitCode" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Full-time employee": "s4i:EnumEmployeeUnitCode#01",
+            "Part-time employee": "s4i:EnumEmployeeUnitCode#02",
+            "Temporary help": "s4i:EnumEmployeeUnitCode#03",
+            "Marginal employee": "s4i:EnumEmployeeUnitCode#04",
+            "Family member": "s4i:EnumEmployeeUnitCode#05",
+            "Apprentice": "s4i:EnumEmployeeUnitCode#06",
+            "Gratuitous": "s4i:EnumEmployeeUnitCode#07",
+            "Seasonal worker": "s4i:EnumEmployeeUnitCode#08",
+            "Home worker": "s4i:EnumEmployeeUnitCode#09",
+            "Temporary worker ": "s4i:EnumEmployeeUnitCode#10",
+            "Business professional": "s4i:EnumEmployeeUnitCode#11",
+            "Company bodies": "s4i:EnumEmployeeUnitCode#12",
+            "Technical staff member": "s4i:EnumEmployeeUnitCode#13",
+            "Business staff member": "s4i:EnumEmployeeUnitCode#14",
+            "Field sales": "s4i:EnumEmployeeUnitCode#15",
+            "In-house staff": "s4i:EnumEmployeeUnitCode#16",
+            "Total employee count": "s4i:EnumEmployeeUnitCode#17"
+        }
+    }
+}
