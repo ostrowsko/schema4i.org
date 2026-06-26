@@ -1,0 +1,61 @@
+{
+    "type": "LegalCoverage",
+    "uri": "http://schema4i.org/LegalCoverage",
+    "description": "A coverage designed to cover legal expenses of the beneficiary",
+    "links": [],
+    "parents": [],
+    "base": [
+        { "@id": "http://schema4i.org/Coverage" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "LegalCoverage": "s4i:LegalCoverage"
+        }
+    },
+    "playground": [{
+        "title": "A sample LegalCoverage",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/Thing.jsonld",
+                "http://schema4i.org/Offer.jsonld",
+                "http://schema4i.org/Coverage.jsonld",
+                "http://schema4i.org/LegalCoverage.jsonld",
+                "http://schema4i.org/Risk.jsonld",
+                "http://schema4i.org/InsuranceBenefit.jsonld",
+                "http://schema4i.org/EnumInsuranceBenefitCode.jsonld",
+
+                {
+                    "Category": {
+                        "@id": "schema:category",
+                        "@type": "@vocab",
+                        "@context": {
+                            "@vocab": "http://schema4i.org/EnumLeagalInsuranceCategoryCode#"
+                        }
+                    }
+                }
+            ],
+            "@type": "LegalCoverage",
+            "SumInsured": [
+                { 
+                    "@context": {
+                        "Value": {
+                            "@id": "s4i:SumInsured",
+                            "@type": "s4i:QuantitativeValue"
+                        }
+                    },
+                    "@type": "InsuranceBenefit"
+                }
+            ],
+            "Covers": {
+                "@type": "Risk"
+            },
+            "Category": "05"
+        },
+        "context": {}
+    }]
+}
