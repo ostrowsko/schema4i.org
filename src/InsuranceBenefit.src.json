@@ -33,6 +33,10 @@
             "s4i": "http://schema4i.org/",
             "schema": "http://schema.org/",
             "InsuranceBenefit": "schema:InsuranceBenefit",
+            "BaseYear": {
+                "@id": "s4i:BaseYear",
+                "@type": "schema:Number"
+            },
             "BenefitType": {
                 "@id": "s4i:BenefitType"
             },
