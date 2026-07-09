@@ -100,8 +100,8 @@
             "MemberOf": {
                 "@id": "schema:memberOf"
             },
-            "NumberOfEmployees": {
-                "@id": "schema:numberOfEmployees",
+            "NumberOfMembers": {
+                "@id": "schema:numberOfMembers",
                 "@type": "s4i:QuantitativeValue"
             },
             "ProvidedConsent": {
@@ -153,7 +153,7 @@
             "LegalForm": "05",
             "Logo": "https://www.b-tix.de/wp-content/uploads/2015/04/b-tix_logo_weiss_textlos_klein.png",
             "MemberOf": {},
-            "NumberOfEmployees": {
+            "NumberOfMembers": {
                 "@type": "QuantitativeValue",
                 "Value": 10
             },
@@ -203,7 +203,7 @@
                 "Name": "Mustermann"
             },
             "Name": "b-tix",
-            "NumberOfEmployees": {
+            "NumberOfMembers": {
                 "@type": "QuantitativeValue",
                 "Value": 10
             },
