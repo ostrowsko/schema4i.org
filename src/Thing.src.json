@@ -53,7 +53,7 @@
             },
             "NumberOfSimilarObjects": {
                 "@id": "s4i:NumberOfSimilarObjects",
-                "@type": "s4i:NumberofSimilarObjects"
+                "@type": "s4i:NumberOfSimilarObjects"
             },
             "PotentialAction": {
                 "@id": "schema:potentialAction"
