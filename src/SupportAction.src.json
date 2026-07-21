@@ -41,7 +41,7 @@
                 "@type": "TechArticle",
                 "About": {
                     "@type": "WebAPI",
-                    "Name": "Schnittstelle BiPRO Security Service"
+                    "Name": "Schnittstelle BIPRO Security Service"
                 },
                 "Abstract": "Aktion Login<br/>Vorgangsnummer 4132.A71D<br/>Lieferung-ID: 4711<br/>...",
                 "ArticleBody": "Bei der Anmeldung erscheint die Fehlermeldung &qout;404 Transport error&quot;.",
