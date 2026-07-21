@@ -1,0 +1,39 @@
+{
+    "type": "MachineCategory",
+    "uri": "http://schema4i.org/MachineCategory",
+    "description": "Type of a Machine",
+    "links": [{
+        "url": "https://www.gdv-online.de/vuvm/bestand/rel2018/anl48.htm",
+        "description": "GDV Anl. 48"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Vehicle#Ownership" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "MachineCategory": {
+                "@id": "s4i:MachineCategory",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumMachineCategoryCode#"
+                }
+            }
+        }
+    },
+    "playground": [{
+        "title": "A maximum MachineCategory",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": {},
+            "MachineCategory": "1480"
+        },
+        "context": {}
+    }]
+}
