@@ -1,7 +1,7 @@
 {
     "type": "EnumEmploymentStatusCode",
     "uri": "http://schema4i.org/EnumEmploymentStatusCode",
-    "description": "A code representing job status. The values correspond to the German GDV and BiPRO standard.",
+    "description": "A code representing job status. The values correspond to the German GDV and BIPRO standard.",
     "links": [{
         "url": "http://schema4i.org/EnumEmploymentStatusCode_DE",
         "description": "German translation"

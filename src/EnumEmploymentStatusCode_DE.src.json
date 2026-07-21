@@ -1,7 +1,7 @@
 {
     "type": "EnumEmploymentStatusCode_DE",
     "uri": "http://schema4i.org/EnumEmploymentStatusCode",
-    "description": "Ein Code, der die Stellung im Beruf darstellt. Die Werte entsprechen dem deutschen GDV- und BiPRO-Standard.",
+    "description": "Ein Code, der die Stellung im Beruf darstellt. Die Werte entsprechen dem deutschen GDV- und BIPRO-Standard.",
     "links": [{
         "url": "http://schema4i.org/EnumEmploymentStatusCode",
         "description": "Englische Dokumentation der Schlüsselwerte"

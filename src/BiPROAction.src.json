@@ -1,7 +1,7 @@
 {
     "type": "BiPROAction",
     "uri": "http://schema4i.org/BiPROAction",
-    "description": "Describes an interaction on a BiPRO API.",
+    "description": "Describes an interaction on a BIPRO API.",
     "links": [],
     "parents": [],
     "base": [
