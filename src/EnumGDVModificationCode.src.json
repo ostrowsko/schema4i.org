@@ -1,0 +1,63 @@
+{
+    "type": "EnumGDVModificationCode",
+    "uri": "http://schema4i.org/EnumGDVModificationCode",
+    "description": "Two-digit identification code for a business transaction in accordance with the GDV standard (2013 release). It is used, for example, to code the reason for a change to an insurance contract (Order#ModificationCode).",
+    "links": [{
+            "url": "http://schema4i.org/EnumGDVModificationCode_DE",
+            "description": "Orignal German Dokumentation"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/Order#ModificationCode" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Initial setup (snapshot inventory, portfolio transfer)": "s4i:EnumGDVModificationCode#00",
+            "Initial delivery of a contract with new contract number after contract separation / supplementary insurance, e.g. conversion from individual insurance to group insurance / conversion from group insurance to individual insurance": "s4i:EnumGDVModificationCode#01",
+            "Policyholder change": "s4i:EnumGDVModificationCode#02",
+            "Vehicle change": "s4i:EnumGDVModificationCode#03",
+            "Change of regional class / tariff group / vehicle type class (motor insurance)": "s4i:EnumGDVModificationCode#04",
+            "Change of coverage scope / insurance protection / transition from full insurance to entitlement insurance or from entitlement insurance to full insurance": "s4i:EnumGDVModificationCode#05",
+            "Change of no-claims discount classification (motor insurance) / premium refund (health insurance)": "s4i:EnumGDVModificationCode#06",
+            "Short-term inclusion or change of coverage": "s4i:EnumGDVModificationCode#07",
+            "Reinstatement": "s4i:EnumGDVModificationCode#08",
+            "Change of insurance duration / insurance start date": "s4i:EnumGDVModificationCode#09",
+            "Change relating to risk / risk surcharge / exclusion of benefits": "s4i:EnumGDVModificationCode#10",
+            "Change of conditions": "s4i:EnumGDVModificationCode#11",
+            "Contractual increase in benefits / dynamic benefit adjustment": "s4i:EnumGDVModificationCode#12",
+            "Change of payment method / due date": "s4i:EnumGDVModificationCode#13",
+            "Change of sum insured": "s4i:EnumGDVModificationCode#14",
+            "Increase of supplementary insurance": "s4i:EnumGDVModificationCode#15",
+            "Inclusion of supplementary coverage": "s4i:EnumGDVModificationCode#16",
+            "Exclusion of supplementary coverage": "s4i:EnumGDVModificationCode#17",
+            "Change of premiums (e.g. premium adjustment, contractual premium increase)": "s4i:EnumGDVModificationCode#18",
+            "Change of personal data": "s4i:EnumGDVModificationCode#19",
+            "Contract consolidation": "s4i:EnumGDVModificationCode#20",
+            "Replacement contract": "s4i:EnumGDVModificationCode#21",
+            "Portfolio transfer (transfer from another intermediary)": "s4i:EnumGDVModificationCode#22",
+            "Agency number change (internal change of organizational unit at intermediary)": "s4i:EnumGDVModificationCode#23",
+            "New business after contract restructuring": "s4i:EnumGDVModificationCode#24",
+            "New business after tariff change": "s4i:EnumGDVModificationCode#25",
+            "Rejection of dynamic increase": "s4i:EnumGDVModificationCode#26",
+            "Contractual increase in benefits / non-dynamic benefit adjustment (e.g. for build-up models)": "s4i:EnumGDVModificationCode#27",
+            "Conversion of death benefit into percentage": "s4i:EnumGDVModificationCode#28",
+            "Removal of risk waiting period": "s4i:EnumGDVModificationCode#29",
+            "Tariff-based premium conversion (e.g. tariff with reduced initial premium)": "s4i:EnumGDVModificationCode#30",
+            "Tariff change (policy number remains unchanged)": "s4i:EnumGDVModificationCode#31",
+            "Additional payment": "s4i:EnumGDVModificationCode#32",
+            "Change of beneficiary rights": "s4i:EnumGDVModificationCode#33",
+            "Subsequent invoice": "s4i:EnumGDVModificationCode#34",
+            "Main due date invoice": "s4i:EnumGDVModificationCode#35",
+            "New business due to takeover from another insurer": "s4i:EnumGDVModificationCode#36",
+            "Transfer to another insurer": "s4i:EnumGDVModificationCode#37",
+            "No-claims discount change for dependent vehicles with interchangeable license plates (W-AKZ)": "s4i:EnumGDVModificationCode#38",
+            "Other change": "s4i:EnumGDVModificationCode#99"
+        }
+    }
+}
