@@ -59,6 +59,10 @@
                 "@id": "schema:birthDate",
                 "@type": "schema:Date"
             },
+             "BirthName": {
+                "@id": "s4i:FamilyNameAtBirth",
+               "@type": "schema:Text"
+            },
             "BirthPlace": {
                 "@id": "schema:birthPlace",
                 "@type": "s4i:Place"
@@ -375,6 +379,7 @@
                 "StreetAddress": "Lindenstr."
             },
             "BirthDate": "1973-11-16",
+            "BirthName": "Meier",
             "Email": "noreply@b-tix.de",
             "Name": "Heussen",
             "GivenName": "Markus",
