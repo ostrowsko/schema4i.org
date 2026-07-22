@@ -32,6 +32,10 @@
         "PaymentMethod": [
             { "@id": "http://schema.org/PaymentMethod" },
             { "@id": "http://schema4i.org/EnumPaymentMethodCode" }
+        ],
+        "ModificationCode": [
+            { "@id": "http://schema4i.org/EnumTransactionCode" },
+            { "@id": "http://schema4i.org/EnumGDVModificationCode" }
         ]
     },
     "context": {
@@ -99,11 +103,7 @@
                 "@type": "schema:Boolean"
             }, 
             "ModificationCode": {
-                "@id": "s4i:OrderModificationCode",
-                "@type": "@vocab",
-                "@context": {
-                    "@vocab": "s4i:EnumTransactionCode#"
-                }
+                "@id": "s4i:ModificationCode"
             },
             "OrderDate": {
                 "@id": "schema:orderDate",

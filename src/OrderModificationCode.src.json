@@ -15,17 +15,18 @@
     "base": [
         { "@id": "http://schema4i.org/Property" }
     ],
-    "multipletypes": {},
+    "multipletypes": {
+        "ModificationCode": [
+            { "@id": "http://schema4i.org/EnumTransactionCode" },
+            { "@id": "http://schema4i.org/EnumGDVModificationCode" }
+        ]
+    },
     "context": {
         "@context": {
             "@version": 1.1,
             "s4i": "http://schema4i.org/",
             "ModificationCode": {
-                "@id": "s4i:OrderModificationCode",
-                "@type": "@vocab",
-                "@context": {
-                    "@vocab": "s4i:EnumTransactionCode#"
-                }
+                "@id": "s4i:ModificationCode"
             }
         }
     },
@@ -33,7 +34,17 @@
         "title": "Contract modification code is 'Address removed'",
         "tab": "tab-expanded",
         "input": {
-            "@context": {},
+            "@context": [
+                {
+                    "ModificationCode": {
+                        "@id": "http://schema4i.org/OrderModificationCode",
+                        "@type": "@vocab",
+                        "@context": {
+                            "@vocab": "http://schema4i.org/EnumTransactionCode#"
+                        }
+                    }
+                }
+            ],
             "ModificationCode": "110011003"
         },
         "context": {}
