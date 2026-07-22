@@ -22,7 +22,7 @@
             "oo": "https://schema.openontology.org/",
             "Machine": "s4i:Machine",
             "Category": {
-                "@id": "s4i:MachineCategory",
+                "@id": "schema:category",
                 "@type": "@vocab",
                 "@context": {
                     "@vocab": "s4i:EnumMachineCategoryCode#"
