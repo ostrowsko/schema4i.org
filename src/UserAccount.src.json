@@ -52,7 +52,7 @@
                 "@type": "s4i:DigitalDocument"
             },
             "DateLastLogin": {
-                "@id": "schema:dateLastLogin",
+                "@id": "s4i:DateLastLogin",
                 "@type": "schema:DateTime"
             }
         }
