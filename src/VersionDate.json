@@ -1,0 +1,33 @@
+{
+    "type": "VersionDate",
+    "uri": "http://schema4i.org/VersionDate",
+        "description": "Date of the current version of the legal insurance product",
+    "links": [],
+    "parents": [{
+        "@id": "http://schema4i.org/LegalInsuranceProduct#VersionDate"
+    }],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "VersionDate": {
+                "@id": "s4i:VersionDate",
+                "@type": "schema:Date"
+            }
+        }
+    },
+    "playground": [{
+        "title": "Sample VersionDate",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": {},
+            "VersionDate": "2022-01-02"
+        },
+        "context": {}
+    }]
+}

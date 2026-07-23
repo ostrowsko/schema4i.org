@@ -1,0 +1,29 @@
+{
+    "type": "EnumTaxTypeCode",
+    "uri": "http://schema4i.org/EnumTaxTypeCode",
+    "description": "A code describing types of tax applied to a value",
+    "links": [{
+        "url": "http://schema4i.org/EnumTaxTypeCode_DE",
+        "description": "German documentation of keys and values"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Adjustment#Identifier" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Insurance tax": "s4i:EnumTaxTypeCode#1",
+            "Fire tax": "s4i:EnumTaxTypeCode#2",
+            "VAT": "s4i:EnumTaxTypeCode#3",
+            "Export/Import tax": "s4i:EnumTaxTypeCode#4",
+            "Capital yield tax": "s4i:EnumTaxTypeCode#5",
+            "Solidarity surcharge": "s4i:EnumTaxTypeCode#6",
+            "Other legal dues": "s4i:EnumTaxTypeCode#7"
+        }
+    }
+}

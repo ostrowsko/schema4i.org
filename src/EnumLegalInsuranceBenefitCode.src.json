@@ -1,0 +1,31 @@
+{
+    "type": "EnumLegalInsuranceBenefitCode",
+    "uri": "http://schema4i.org/EnumLegalInsuranceBenefitCode",
+    "description": "A code describing the type of an InsuranceBenefit in a Legal insurance or coverage",
+    "links": [{
+            "url": "http://schema4i.org/EnumLegalInsuranceBenefitCode_DE",
+            "description": "German documentation"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Sum insured": "s4i:EnumLegalInsuranceBenefitCode#01",
+            "Current sum insured": "s4i:EnumLegalInsuranceBenefitCode#02",
+            "Sum insured for first risk": "s4i:EnumLegalInsuranceBenefitCode#03",
+            "Maximum annual compensation": "s4i:EnumLegalInsuranceBenefitCode#04",
+            "Sum insured in accordance with Terms and Conditions": "s4i:EnumLegalInsuranceBenefitCode#05",
+            "Total sum insured": "s4i:EnumLegalInsuranceBenefitCode#06",
+            "Penal bond": "s4i:EnumLegalInsuranceBenefitCode#07",
+            "Number of cases": "s4i:EnumLegalInsuranceBenefitCode#08"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "type": "EnumPriceTypeCode_DE",
     "uri": "http://schema4i.org/EnumPriceTypeCode_DE",
-    "description": "Code für die Schlüsselung der Beitragsarten angelehnt an BiPRO.",
+    "description": "Code für die Schlüsselung der Beitragsarten angelehnt an BIPRO.",
     "links": [{
         "url": "http://schema4i.org/EnumPriceTypeCode",
         "description": "Englische Dokumentation der Schlüsselwerte"

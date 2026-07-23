@@ -1,0 +1,31 @@
+{
+    "type": "EnumDegreeOfDisabilityCode",
+    "uri": "http://schema4i.org/EnumDegreeOfDisabilityCode",
+    "description": "A Code describing the degrees of disability that an insurance benefit applies to",
+    "links": [{
+        "url": "http://schema4i.org/EnumDegreeOfDisabilityCode_DE",
+        "description": "German documentation of keys and values"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#DegreeOfDisability"}
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Degree 0 (before 2017.01.01)": "s4i:EnumDegreeOfDisabilityCode00",
+            "Degree 1 (before 2017.01.01)": "s4i:EnumDegreeOfDisabilityCode01",
+            "Degree 2 (before 2017.01.01)": "s4i:EnumDegreeOfDisabilityCode02",
+            "Degree 3 (before 2017.01.01)": "s4i:EnumDegreeOfDisabilityCode03",
+            "Degree 1": "s4i:EnumDegreeOfDisabilityCode11",
+            "Degree 2": "s4i:EnumDegreeOfDisabilityCode12",
+            "Degree 3": "s4i:EnumDegreeOfDisabilityCode13",
+            "Degree 4": "s4i:EnumDegreeOfDisabilityCode14",
+            "Degree 5": "s4i:EnumDegreeOfDisabilityCode15"
+        }
+    }
+}

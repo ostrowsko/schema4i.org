@@ -1,0 +1,40 @@
+{
+    "type": "EnumEmployeeUnitCode_DE",
+    "uri": "http://schema4i.org/EnumEmployeeUnitCode_DE",
+    "description": "Ein Code, der die Einheit der Mitarbeiterzahl eines Unternehmens beschreibt.",
+    "links": [{
+            "url": "http://schema4i.org/EnumEmployeeUnitCode",
+            "description": "Englische Dokumentation der Schlüsselwerte"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/QuantitativeValue#UnitCode" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Vollzeitmitarbeiter": "s4i:EnumEmployeeUnitCode_DE#01",
+            "Teilzeitmitarbeiter": "s4i:EnumEmployeeUnitCode_DE#02",
+            "Aushilfe": "s4i:EnumEmployeeUnitCode_DE#03",
+            "Geringfügig Beschäftigter": "s4i:EnumEmployeeUnitCode_DE#04",
+            "Familienangehöriger": "s4i:EnumEmployeeUnitCode_DE#05",
+            "Auszubildender": "s4i:EnumEmployeeUnitCode_DE#06",
+            "Unentgeltlich": "s4i:EnumEmployeeUnitCode_DE#07",
+            "Saisonkraft": "s4i:EnumEmployeeUnitCode_DE#08",
+            "Heimarbeiter": "s4i:EnumEmployeeUnitCode_DE#09",
+            "Leiharbeiter": "s4i:EnumEmployeeUnitCode_DE#10",
+            "Kaufmännisch Tätige": "s4i:EnumEmployeeUnitCode_DE#11",
+            "Organe": "s4i:EnumEmployeeUnitCode_DE#12",
+            "Technisch Tätige": "s4i:EnumEmployeeUnitCode_DE#13",
+            "Gewerblich Tätige": "s4i:EnumEmployeeUnitCode_DE#14",
+            "Außendienst": "s4i:EnumEmployeeUnitCode_DE#15",
+            "Innendienst": "s4i:EnumEmployeeUnitCode_DE#16",
+            "Anzahl Mitarbeiter gesamt": "s4i:EnumEmployeeUnitCode_DE#17"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "EnumDamageCategoryCode_DE",
+    "uri": "http://schema4i.org/EnumDamageCategoryCode_DE",
+    "description": "Ein Code, der die Schadenarten beschreibt, auf die eine Versicherungsleistung zutreffen kann",
+    "links": [{ 
+        "url": "http://schema4i.org/EnumDamageCategoryCode",
+        "description": "Englische Dokumentation der Schlüsselwerte"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#DamageType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Personenschaden": "s4i:EnumDamageCategoryCode#1",
+            "Sachschaden": "s4i:EnumDamageCategoryCode#2",
+            "Vermögensschaden": "s4i:EnumDamageCategoryCode#3",
+            "Sonstiger Schaden": "s4i:EnumDamageCategoryCode#9"
+        }
+    }
+}

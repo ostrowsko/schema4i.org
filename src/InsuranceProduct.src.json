@@ -6,6 +6,7 @@
     "parents": [
         { "@id": "http://schema4i.org/BuildingInsuranceProduct" },
         { "@id": "http://schema4i.org/MotorInsuranceProduct" },
+        { "@id": "http://schema4i.org/LegalInsuranceProduct" },
         { "@id": "http://schema4i.org/ContentsInsuranceProduct" },
         { "@id": "http://schema4i.org/HealthInsuranceProduct" },
         { "@id": "http://schema4i.org/LifeInsuranceProduct" }

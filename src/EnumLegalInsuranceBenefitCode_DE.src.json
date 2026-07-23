@@ -1,0 +1,31 @@
+{
+    "type": "EnumLegalInsuranceBenefitCode_DE",
+    "uri": "http://schema4i.org/EnumLegalInsuranceBenefitCode_DE",
+    "description": "Ein Code, der die Details des 'Insurancebenefit's im Bereich einer Rechtsschutzversicherung beschreibt.",
+    "links": [{
+            "url": "http://schema4i.org/EnumLegalInsuranceBenefitCode",
+            "description": "Englische Dokumentation der Schlüsselwerte"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Versicherungssumme": "s4i:EnumLegalInsuranceBenefitCode#01",
+            "aktuelle Versicherungssumme": "s4i:EnumLegalInsuranceBenefitCode#02",
+            "Versicherungssumme für Erstrisiko": "s4i:EnumLegalInsuranceBenefitCode#03",
+            "Jahreshöchstentschädigung": "s4i:EnumLegalInsuranceBenefitCode#04",
+            "Versicherungssumme nach Allgemeinen Vertragsbedingungen": "s4i:EnumLegalInsuranceBenefitCode#05",
+            "Gesamtversicherungssumme": "s4i:EnumLegalInsuranceBenefitCode#06",
+            "Strafkaution": "s4i:EnumLegalInsuranceBenefitCode#07",
+            "Anzahl Fälle": "s4i:EnumLegalInsuranceBenefitCode#08"
+        }
+    }
+}

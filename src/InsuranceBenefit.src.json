@@ -18,7 +18,13 @@
         "BenefitType": [
             { "@id": "http://schema4i.org/EnumInsuranceBenefitCode" },
             { "@id": "http://schema4i.org/EnumDisabilityBenefitCode" },
-             { "@id": "http://schema4i.org/EnumLifeInsuranceValueCode" }
+            { "@id": "http://schema4i.org/EnumLifeInsuranceValueCode" },
+            { "@id": "http://schema4i.org/EnumLegalInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumVehicleInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumHealthInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumCompositeInsuranceBenefitCode" },
+            { "@id": "http://schema4i.org/EnumLifeInsuranceBenefitCode" }
+
         ]
     },
     "context": {
@@ -27,8 +33,37 @@
             "s4i": "http://schema4i.org/",
             "schema": "http://schema.org/",
             "InsuranceBenefit": "schema:InsuranceBenefit",
+            "BaseYear": {
+                "@id": "s4i:BaseYear",
+                "@type": "schema:Number"
+            },
             "BenefitType": {
                 "@id": "s4i:BenefitType"
+            },
+            "DamageType": {
+                "@id": "s4i:DamageType",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumDamageCategoryCode"
+                }
+            },
+            "DegreeOfDisability": {
+                "@id": "s4i:DegreeOfDisability",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumDegreeOfDisabilityCode"
+                }
+            },
+            "PriceIndex": {
+                "@id": "s4i:PriceIndex", 
+                "@type": "schema:Number"
+            },
+            "TreatmentType": {
+                "@id": "s4i:TreatmentType",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumTreatmentTypeCode#"
+                }
             },
              "ValidFrom": {
                 "@id": "schema:validFrom",
@@ -39,7 +74,7 @@
                 "@type": "schema:DateTime"
             },
             "Value": {
-                 "@id": "s4i:SumInsured"
+                "@id": "s4i:SumInsured"
             }
         }
     },

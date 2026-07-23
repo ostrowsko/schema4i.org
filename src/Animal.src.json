@@ -3,7 +3,10 @@
     "uri": "http://schema4i.org/Animal",
     "description": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli.",
     "links": [],
-    "parents": [],
+        "parents": [
+        { "@id": "http://schema4i.org/Dog" },
+        { "@id": "http://schema4i.org/Horse" }
+    ],
     "base": [
         { "@id": "http://schema4i.org/Thing" }
     ],
@@ -44,9 +47,23 @@
                     "@vocab": "s4i:EnumAnimalUseCode#"
                 }
             },
+             "AnimalIdentificationType": {
+                "@id": "s4i:AnimalIdentification",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumAnimalIdentificationTypeCode#"
+                }
+            },
             "LifeCycle": {
                 "@id": "s4i:LifeCycle",
                 "@type": "s4i:AnimalLifeCycleEvent"
+            },
+                         "Species": {
+                "@id": "s4i:Species",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumAnimalSpeciesCode#"
+                }
             }
         }
     },
@@ -71,8 +88,8 @@
                 }
             ],
             "@type": "Animal",
-            "Breed":  "Goldfish",
-            "Name": "Goldy",
+            "Breed":  "Brasilianisch Kurzhaar",
+            "Name": "Felix",
             "BirthDate": "2021-10-04",
             "Gender": "1",
             "Owner": {
@@ -82,6 +99,7 @@
                 "Salutation": "3"
             },
             "AnimalUse": "12",
+            "AnimalIdentificationType": "99",
             "LifeCycle": {
                 "@type": "AnimalLifeCycleEvent",
                 "Name": "Geburt",
@@ -92,7 +110,8 @@
                 },
                 "StartDate": "2021-10-04T12:00:00",
                 "EndDate": "2021-10-04T12:00:00"
-            }
+            },
+            "Species": "009"
         },
         "context": {}
     }]

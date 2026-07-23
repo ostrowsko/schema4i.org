@@ -12,7 +12,8 @@
     "multipletypes": {
         "Identifier": [
             { "@id": "http://schema.org/Text" },
-            { "@id": "http://schema4i.org/EnumAdjustmentIdentifierCode" }
+            { "@id": "http://schema4i.org/EnumAdjustmentIdentifierCode" },
+            { "@id": "http://schema4i.org/EnumTaxTypeCode"}
         ],
         "Value": [
             { "@id": "http://schema4i.org/PropertyValue" },

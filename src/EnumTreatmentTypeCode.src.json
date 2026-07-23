@@ -1,0 +1,24 @@
+{
+    "type": "EnumTreatmentTypeCode",
+    "uri": "http://schema4i.org/EnumTreatmentTypeCode",
+    "description": "A code describing the type of care granted as part of an insurance benefit",
+    "links": [{
+        "url": "http://schema4i.org/EnumTreatmentTypeCode_DE",
+        "description": "German documentation of keys and values"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#TreatmentType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Outpatient": "s4i:EnumTreatmentTypeCode#1",
+            "Inpatient": "s4i:EnumTreatmentTypeCode#2"
+        }
+    }
+}

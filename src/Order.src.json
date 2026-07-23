@@ -32,6 +32,10 @@
         "PaymentMethod": [
             { "@id": "http://schema.org/PaymentMethod" },
             { "@id": "http://schema4i.org/EnumPaymentMethodCode" }
+        ],
+        "ModificationCode": [
+            { "@id": "http://schema4i.org/EnumTransactionCode" },
+            { "@id": "http://schema4i.org/EnumGDVModificationCode" }
         ]
     },
     "context": {
@@ -94,12 +98,12 @@
                 "@id": "s4i:Group",
                 "@type": "s4i:Group"
             },
+            "HasTerminationClause": {
+                 "@id": "s4i:TerminationClause",
+                "@type": "schema:Boolean"
+            }, 
             "ModificationCode": {
-                "@id": "s4i:OrderModificationCode",
-                "@type": "@vocab",
-                "@context": {
-                    "@vocab": "s4i:EnumTransactionCode#"
-                }
+                "@id": "s4i:ModificationCode"
             },
             "OrderDate": {
                 "@id": "schema:orderDate",
@@ -299,6 +303,7 @@
                 }
             },
             "Group": {},
+            "HasTerminationClause": false,
             "OrderDate": "2020-07-30",
             "OrderedItem": {},
             "OrderNumber": "A-Nr.4711",

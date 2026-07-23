@@ -1,0 +1,44 @@
+{
+    "type": "TreatmentType",
+    "uri": "http://schema4i.org/TreatmentType",
+    "description": "Describes if a treatment as part of an insurance benefit is in- or outpatient",
+    "links": [{
+        "url": "http://schema4i.org/EnumTreatmentTypeCode.jsonld",
+        "description": "Enumeration with keys and values"
+    }, {
+        "url": "http://schema4i.org/EnumTreatmentTypeCode_DE.jsonld",
+        "description": "German key translation of EnumTreatmentTypeCode"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#TreatmentType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "TreatmentType": {
+                "@id": "s4i:TreatmentType",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumTreatmentTypeCode#"
+                }
+            }
+        }
+    },
+    "playground": [{
+        "title": "A realistic TreatmentType",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/TreatmentType.jsonld"
+            ],
+            "TreatmentType": "Outpatient"
+        },
+        "context": {}
+    }]
+}

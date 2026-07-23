@@ -1,0 +1,27 @@
+{
+    "type": "EnumAnimalIdentificationTypeCode",
+    "uri": "http://schema4i.org/EnumAnimalIdentificationTypeCode",
+    "description": "A code that describes how an animal is marked and can be identified.",
+    "links": [{
+        "url": "http://schema4i.org/EnumAnimalIdentificationTypeCode_DE",
+        "description": "Original German documentation"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Animal#AnimalIdentificationType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Tattoo": "s4i:EnumAnimalIdentificationTypeCode#01",
+            "Microchip": "s4i:EnumAnimalIdentificationTypeCode#02",
+            "Brand Mark": "s4i:EnumAnimalIdentificationTypeCode#03",
+            "Ear Tag": "s4i:EnumAnimalIdentificationTypeCode#04",
+            "Other": "s4i:EnumAnimalIdentificationTypeCode#99"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "type": "TerminationClause",
+    "uri": "http://schema4i.org/TerminationClause",
+    "description": "A TerminationClause allows an order to be cancelled early.",
+    "links": [],
+    "parents": [{
+        "@id": "http://schema4i.org/Order#HasTerminationClause"
+    }],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "TerminationClause": {
+                "@id": "s4i:TerminationClause",
+                "@type": "schema:Boolean"
+            }
+        }
+    },
+    "playground": [{
+        "title": "Sample TerminationClause",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": {},
+            "HasTerminationClause": true
+        },
+        "context": {}
+    }]
+}

@@ -45,7 +45,8 @@
             "@type": "Dog",
             "Breed":  "304",
             "Name": "Rex",
-            "BirthDate": "2020-12-24"
+            "BirthDate": "2020-12-24",
+            "Species": "001"
         },
         "context": {}
     }]

@@ -1,9 +1,11 @@
 {
     "type": "Irrevocable",
     "uri": "http://schema4i.org/Irrevocable",
-    "description": "Describes wether something can be revoked.",
+    "description": "Describes whether something can be revoked.",
     "links": [],
-    "parents": [],
+    "parents": [
+        { "@id": "http://schema4i.org/BeneficialOwnership#Irrevocable" }
+    ],
     "base": [
         { "@id": "http://schema4i.org/Property" }
     ],

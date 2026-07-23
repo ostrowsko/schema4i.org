@@ -33,7 +33,7 @@
             "@type": "TechArticle",
             "About": {
                 "@type": "WebAPI",
-                "Name": "Schnittstelle BiPRO Security Service"
+                "Name": "Schnittstelle BIPRO Security Service"
             },
             "Abstract": "Aktion Login<br/>Vorgangsnummer 4132.A71D<br/>Lieferung-ID: 4711<br/>...",
             "ArticleBody": "<p>Bei der Nutzung der Schnittstelle ist folgendes Problem aufgetreten: <strong>...</strong></p>",

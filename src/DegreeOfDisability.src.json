@@ -1,0 +1,39 @@
+{
+    "type": "DegreeOfDisability",
+    "uri": "http://schema4i.org/DegreeOfDisability",
+    "description": "Details the degree of disability that insurance benefits apply to",
+    "links": [],
+    "parents": [{
+        "@id": "http://schema4i.org/InsuranceBenefit#DegreeOfDisability"
+    }],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "DegreeOfDisability": {
+                "@id": "s4i:DegreeOfDisability",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumDegreeOfDisabilityCode#"
+                }
+            }
+        }
+    },
+    "playground": [{
+        "title": "A realistic specification for DegreeOfDisability",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/DegreeOfDisability"
+            ],
+            "@type": "InsuranceBenefit",
+            "DegreeOfDisability": ["04", "05"]
+        },
+        "context": {}
+    }]
+}

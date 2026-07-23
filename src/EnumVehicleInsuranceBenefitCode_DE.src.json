@@ -1,0 +1,45 @@
+{
+    "type": "EnumVehicleInsuranceBenefitCode_DE",
+    "uri": "http://schema4i.org/EnumVehicleInsuranceBenefitCode_DE",
+    "description": "Ein Code, der die Details des 'Insurancebenefit's im Bereich einer KFZ-Versicherung beschreibt.",
+    "links": [{
+            "url": "http://schema4i.org/EnumVehicleInsuranceBenefitCode",
+            "description": "Englische Dokumentation der Schlüsselwerte"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Haftpflicht-Deckungssumme (Spezifizierung über SchadenArt möglich)": "s4i:EnumVehicleInsuranceBenefitCode#01",
+            "Unfall-Versicherungssumme bei Tod": "s4i:EnumVehicleInsuranceBenefitCode#02",
+            "Unfall-Versicherungssumme bei Invalidität": "s4i:EnumVehicleInsuranceBenefitCode#03",
+            "Unfall-Tagegeld": "s4i:EnumVehicleInsuranceBenefitCode#04",
+            "Unfall-Krankenhaustagegeld": "s4i:EnumVehicleInsuranceBenefitCode#05",
+            "Unfall-Versicherungssumme für eine festgelegte Anzahl an Plätzen": "s4i:EnumVehicleInsuranceBenefitCode#06",
+            "Versicherungssumme": "s4i:EnumVehicleInsuranceBenefitCode#07",
+            "Höchstentschädigungssumme": "s4i:EnumVehicleInsuranceBenefitCode#08",
+            "Versicherungssumme zum Neuwert": "s4i:EnumVehicleInsuranceBenefitCode#09",
+            "Versicherungssumme zum Zeitwert": "s4i:EnumVehicleInsuranceBenefitCode#10",
+            "Werkstattbindung ": "s4i:EnumVehicleInsuranceBenefitCode#11",
+            "Unfall-Versicherungssumme für Heilkosten": "s4i:EnumVehicleInsuranceBenefitCode#12",
+            "Anzahl der Plätze für Unfall-Versicherungssumme": "s4i:EnumVehicleInsuranceBenefitCode#13",
+            "Unfall-Krankentagegeld (mit Genesungsgeld)": "s4i:EnumVehicleInsuranceBenefitCode#14",
+            "aktuelle Versicherungssumme": "s4i:EnumVehicleInsuranceBenefitCode#15",
+            "Versicherungssumme zum Gemeinwert": "s4i:EnumVehicleInsuranceBenefitCode#16",
+            "Versicherungssumme zum Erstrisiko": "s4i:EnumVehicleInsuranceBenefitCode#17",
+            "Jahreshöchstentschädigung": "s4i:EnumVehicleInsuranceBenefitCode#18",
+            "Versicherungssumme nach Allgemeinen Vertragsbedingungen": "s4i:EnumVehicleInsuranceBenefitCode#19",
+            "Summenbegrenzung": "s4i:EnumVehicleInsuranceBenefitCode#20",
+            "Gesamtversicherungssumme": "s4i:EnumVehicleInsuranceBenefitCode#21",
+            "erhöhte Entschädigungsgrenze": "s4i:EnumVehicleInsuranceBenefitCode#22"
+        }
+    }
+}

@@ -18,7 +18,8 @@
         "UnitCode": [
             { "@id": "http://schema.org/Text" },
             { "@id": "http://schema4i.org/EnumMeasurementUnitCode" },
-            { "@id": "http://schema4i.org/EnumValueUnitCode" }
+            { "@id": "http://schema4i.org/EnumValueUnitCode" },
+            { "@id": "http://schema4i.org/EnumEmployeeUnitCode" }
         ],
         "Value": [
             { "@id": "http://schema.org/Boolean" },

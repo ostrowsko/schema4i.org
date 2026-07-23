@@ -50,6 +50,10 @@
             "License": {
                 "@id": "s4i:License",
                 "@type": "s4i:DigitalDocument"
+            },
+            "DateLastLogin": {
+                "@id": "schema:dateLastLogin",
+                "@type": "schema:DateTime"
             }
         }
     },

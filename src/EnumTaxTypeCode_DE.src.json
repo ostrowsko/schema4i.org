@@ -1,0 +1,29 @@
+{
+    "type": "EnumTaxTypeCode_DE",
+    "uri": "http://schema4i.org/EnumTaxTypeCode_DE",
+    "description": "Ein Code, der die Art einer Steuer auf einen Wert beschreibt",
+    "links": [{
+        "url": "http://schema4i.org/EnumTaxTypeCode",
+        "description": "Englische Dokumentation der Schlüsselwerte"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Adjustment#Identifier" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Versicherungsteuer": "s4i:EnumTaxTypeCode#1",
+            "Feuersteuer": "s4i:EnumTaxTypeCode#2",
+            "Umsatzsteuer": "s4i:EnumTaxTypeCode#3",
+            "Auslandssteuer": "s4i:EnumTaxTypeCode#4",
+            "Kapitalertragsteuer": "s4i:EnumTaxTypeCode#5",
+            "Solidaritätszuschlag": "s4i:EnumTaxTypeCode#6",
+            "Sonstige gesetzliche Abgaben": "s4i:EnumTaxTypeCode#7"
+        }
+    }
+}

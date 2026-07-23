@@ -1,0 +1,46 @@
+{
+    "type": "NumberOfSimilarObjects",
+    "uri": "http://schema4i.org/NumberOfSimilarObjects",
+    "description": "The number of similar objects that form a group of objects",
+    "links": [],
+    "parents": [
+        { "@id": "http://schema4i.org/Group#NumberOfSimilarObjects" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {
+        "NumberOfSimilarObjects": [
+            { "@id": "http://schema.org/Number" },
+            { "@id": "http://schema4i.org/QuantitativeValue" }
+        ]
+    },
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "NumberOfSimilarObjects": {
+                "@id": "s4i:NumberOfSimilarObjects"
+            }
+        }
+    },
+    "playground": [{
+        "title": "A sample for NumberOfSimilarObjects",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/Group.jsonld",
+                "http://schema4i.org/Thing.jsonld",
+                {
+                    "NumberOfSimilarObjects": {
+                        "@id": "http://schema4i.org/NumberOfSimilarObjects",
+                        "@type": "http://schema.org/Number"
+                    }
+                }
+            ],
+            "NumberOfSimilarObjects": 11
+        },
+        "context": {}
+    }]
+}

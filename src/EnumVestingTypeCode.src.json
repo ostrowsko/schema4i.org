@@ -18,7 +18,7 @@
             "@version": 1.1,
             "s4i": "http://schema4i.org/",
             "Statutory": "s4i:EnumVestingTypeCode#gesetzlich",
-            "Contractual": "s4i:EnumVestingTypeCodee#vertraglich"
+            "Contractual": "s4i:EnumVestingTypeCode#vertraglich"
         }
     }
 }

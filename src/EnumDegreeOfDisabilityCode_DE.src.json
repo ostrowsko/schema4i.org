@@ -1,0 +1,31 @@
+{
+    "type": "EnumDegreeOfDisabilityCode_DE",
+    "uri": "http://schema4i.org/EnumDegreeOfDisabilityCode_DE",
+    "description": "Ein Code, der die Pflegestufe(n) oder -grad(e) angibt, für die eine Versicherungsleistung gilt.",
+    "links": [{
+        "url": "http://schema4i.org/EnumDegreeOfDisabilityCode",
+        "description": "Englische Dokumentation der Schlüsselwerte"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#DegreeOfDisability"}
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Pflegestufe 0 (vor 1.1.2017)": "s4i:EnumDegreeOfDisabilityCode00",
+            "Pflegestufe 1 (vor 1.1.2017)": "s4i:EnumDegreeOfDisabilityCode01",
+            "Pflegestufe 2 (vor 1.1.2017)": "s4i:EnumDegreeOfDisabilityCode02",
+            "Pflegestufe 3 (vor 1.1.2017)": "s4i:EnumDegreeOfDisabilityCode03",
+            "Pflegegrad 1": "s4i:EnumDegreeOfDisabilityCode11",
+            "Pflegegrad 2": "s4i:EnumDegreeOfDisabilityCode12",
+            "Pflegegrad 3": "s4i:EnumDegreeOfDisabilityCode13",
+            "Pflegegrad 4": "s4i:EnumDegreeOfDisabilityCode14",
+            "Pflegegrad 5": "s4i:EnumDegreeOfDisabilityCode15"
+        }
+    }
+}

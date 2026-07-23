@@ -1,0 +1,39 @@
+{
+    "type": "EnumHealthInsuranceBenefitCode",
+    "uri": "http://schema4i.org/EnumHealthInsuranceBenefitCode",
+    "description": "A code describing the details of an 'InsuranceBenefit' for health insurance",
+    "links": [{
+            "url": "http://schema4i.org/EnumHealthInsuranceBenefitCode_DE",
+            "description": "German documentation of keys and values"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Sum insured": "s4i:EnumHealthInsuranceBenefitCode#01", 
+            "Post-operation daily allowance": "s4i:EnumHealthInsuranceBenefitCode#02", 
+            "Payment from day": "s4i:EnumHealthInsuranceBenefitCode#03", 
+            "Sickness daily allowance": "s4i:EnumHealthInsuranceBenefitCode#04", 
+            "Hospital daily allowance": "s4i:EnumHealthInsuranceBenefitCode#05", 
+            "Care daily allowance": "s4i:EnumHealthInsuranceBenefitCode#06", 
+            "Rehabilitation daily allowance": "s4i:EnumHealthInsuranceBenefitCode#07", 
+            "Care service / costs": "s4i:EnumHealthInsuranceBenefitCode#08", 
+            "Current sum insured": "s4i:EnumHealthInsuranceBenefitCode#09", 
+            "Premium refund": "s4i:EnumHealthInsuranceBenefitCode#10", 
+            "Premium relief during accumulation phase": "s4i:EnumHealthInsuranceBenefitCode#11", 
+            "Premium relief during benefit phase": "s4i:EnumHealthInsuranceBenefitCode#12", 
+            "Sum insured according to terms and conditions": "s4i:EnumHealthInsuranceBenefitCode#13", 
+            "Total sum insured": "s4i:EnumHealthInsuranceBenefitCode#14", 
+            "Provisions component": "s4i:EnumHealthInsuranceBenefitCode#15", 
+            "Budget": "s4i:EnumHealthInsuranceBenefitCode#16"
+        }
+    }
+}

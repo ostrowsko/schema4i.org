@@ -51,6 +51,10 @@
                 "@id": "schema:image",
                 "@type": "s4i:ImageObject"
             },
+            "NumberOfSimilarObjects": {
+                "@id": "s4i:NumberOfSimilarObjects",
+                "@type": "s4i:NumberOfSimilarObjects"
+            },
             "PotentialAction": {
                 "@id": "schema:potentialAction"
             },

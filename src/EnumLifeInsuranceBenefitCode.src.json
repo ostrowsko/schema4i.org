@@ -1,0 +1,54 @@
+{
+    "type": "EnumLifeInsuranceBenefitCode",
+    "uri": "http://schema4i.org/EnumLifeInsuranceBenefitCode",
+    "description": "Ein Code, der die Details des 'Insurancebenefit's im Bereich einer Lebensversicherung beschreibt.",
+    "links": [{
+            "url": "http://schema4i.org/EnumLifeInsuranceBenefitCode_DE",
+            "description": "German documentation of keys and values"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Payment on expiry": "s4i:EnumLifeInsuranceBenefitCode#01",
+            "Pension": "s4i:EnumLifeInsuranceBenefitCode#02",
+            "Payment on death": "s4i:EnumLifeInsuranceBenefitCode#03",
+            "Sum insured": "s4i:EnumLifeInsuranceBenefitCode#04",
+            "Pension until age": "s4i:EnumLifeInsuranceBenefitCode#05",
+            "Care service": "s4i:EnumLifeInsuranceBenefitCode#06",
+            "Immediate benefit": "s4i:EnumLifeInsuranceBenefitCode#07",
+            "Current Sum insured": "s4i:EnumLifeInsuranceBenefitCode#08",
+            "Policy loan": "s4i:EnumLifeInsuranceBenefitCode#09",
+            "Risk lead": "s4i:EnumLifeInsuranceBenefitCode#10",
+            "Pension for surviving relatives": "s4i:EnumLifeInsuranceBenefitCode#11",
+            "Sum insured according to Terms and Conditions": "s4i:EnumLifeInsuranceBenefitCode#12",
+            "Total sum insured": "s4i:EnumLifeInsuranceBenefitCode#13",
+            "Surplus allocated to payment on expiry": "s4i:EnumLifeInsuranceBenefitCode#14",
+            "Surplus allocated to pension": "s4i:EnumLifeInsuranceBenefitCode#15",
+            "Surplus allocated to payment on death": "s4i:EnumLifeInsuranceBenefitCode#16",
+            "Surplus allocated to care service": "s4i:EnumLifeInsuranceBenefitCode#17",
+            "Withdrawal option": "s4i:EnumLifeInsuranceBenefitCode#18",
+            "Total loan value": "s4i:EnumLifeInsuranceBenefitCode#19",
+            "Available loan value": "s4i:EnumLifeInsuranceBenefitCode#20",
+            "Last received allowance": "s4i:EnumLifeInsuranceBenefitCode#21",
+            "Sum of received allowance": "s4i:EnumLifeInsuranceBenefitCode#22",
+            "Last special payment": "s4i:EnumLifeInsuranceBenefitCode#23",
+            "Sum of special payments": "s4i:EnumLifeInsuranceBenefitCode#24",
+            "Buyback value": "s4i:EnumLifeInsuranceBenefitCode#25",
+            "Sum of contributions": "s4i:EnumLifeInsuranceBenefitCode#26",
+            "Contract value": "s4i:EnumLifeInsuranceBenefitCode#27",
+            "Refund sum": "s4i:EnumLifeInsuranceBenefitCode#28",
+            "Excess credit": "s4i:EnumLifeInsuranceBenefitCode#29",
+            "Share of the valuation reserves": "s4i:EnumLifeInsuranceBenefitCode#30",
+            "Fund balance of all funds": "s4i:EnumLifeInsuranceBenefitCode#31"
+        }
+    }
+}

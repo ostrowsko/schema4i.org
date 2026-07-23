@@ -26,7 +26,8 @@
                 "http://schema4i.org/Thing.jsonld"
             ],
             "@type": "Horse",
-            "Breed":  "Pony",
+            "Species": "002",
+            "Breed":  "Arabisches Halbblut",
             "Name": "Wendy",
             "BirthDate": "2021-10-04"
         },

@@ -1,0 +1,31 @@
+{
+    "type": "EnumAnimalSpeciesCode",
+    "uri": "http://schema4i.org/EnumAnimalSpeciesCode",
+    "description": "A code that describes the species of an animal",
+    "links": [{
+        "url": "http://schema4i.org/EnumAnimalSpeciesCode_DE",
+        "description": "Original German documentation"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Animal#Species" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Dog": "s4i:EnumAnimalSpeciesCode#001",
+            "Horse": "s4i:EnumAnimalSpeciesCode#002",
+            "Pony": "s4i:EnumAnimalSpeciesCode#003",
+            "Donkey": "s4i:EnumAnimalSpeciesCode#004",
+            "Mule": "s4i:EnumAnimalSpeciesCode#005",
+            "Hinny": "s4i:EnumAnimalSpeciesCode#006",
+            "Ferret": "s4i:EnumAnimalSpeciesCode#007",
+            "Bird": "s4i:EnumAnimalSpeciesCode#008",
+            "Cat": "s4i:EnumAnimalSpeciesCode#009"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "EnumDamageCategoryCode",
+    "uri": "http://schema4i.org/EnumDamageCategoryCode",
+    "description": "A code that describes the types of damage that an insurance benefit can apply to",
+    "links": [{ 
+        "url": "http://schema4i.org/EnumDamageCategoryCode_DE",
+        "description": "Original German documentation"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#DamageType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Damages to persons": "s4i:EnumDamageCategoryCode#1",
+            "Property damages": "s4i:EnumDamageCategoryCode#2",
+            "Financial damages": "s4i:EnumDamageCategoryCode#3",
+            "Other damages": "s4i:EnumDamageCategoryCode#9"
+        }
+    }
+}

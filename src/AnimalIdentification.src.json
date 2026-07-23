@@ -1,0 +1,40 @@
+{
+    "type": "AnimalIdentification",
+    "uri": "http://schema4i.org/AnimalIdentification",
+    "description": "Describes how an animal is marked and how it can be itenfified.",
+    "links": [],
+    "parents": [
+        { "@id": "http://schema4i.org/Animal#AnimalIdentificationType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "AnimalUse": {
+                "@id": "s4i:AnimalIdentification",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumAnimalIdentificationTypeCode#"
+                }
+            }
+        }
+    },
+    "playground": [{
+        "title": "Sample AnimalIdentification",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/Animal.jsonld",
+                "http://schema4i.org/AnimalIdentification.jsonld"
+            ],
+            "@type": "Animal",
+            "AnimalIdentificationType": "02"
+        },
+        "context": {}
+    }]
+}

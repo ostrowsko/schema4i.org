@@ -1,0 +1,39 @@
+{
+    "type": "GeoArea",
+    "uri": "http://schema4i.org/GeoArea",
+    "description": "Represents the geographic size or surface area of the property or land. The value is measured and expressed in either square meters or hectares ",
+    "links": [],
+    "parents":[{
+        "@id": "http://schema4i.org/Place#GeoArea"
+    }],
+    "base":[
+        { "@id": "http://schema4i.org/Property" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "GeoArea": {
+                "@id": "s4i:GeoArea",
+                "@type": "s4i:QuantitativeValue"
+            }
+        }
+    },
+    "playground":[{
+        "title": "A simple GeoArea in squaremeters",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": {
+                "UnitCode": {
+                    "@id": "http://schema.org/unitCode",
+                    "@type": "http://schema.org/Text"
+                }
+            },
+            "@type": "QuantitativeValue",
+            "Value": 1457,
+            "UnitCode": "MTK",
+            "UnitText": "sqm"
+        }
+    }]
+}

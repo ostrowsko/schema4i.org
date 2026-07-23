@@ -1,0 +1,45 @@
+{
+    "type": "EnumVehicleInsuranceBenefitCode",
+    "uri": "http://schema4i.org/EnumVehicleInsuranceBenefitCode",
+    "description": "A code describing details of an 'InsuranceBenefit' for vehicle insurance",
+    "links": [{
+            "url": "http://schema4i.org/EnumVehicleInsuranceBenefitCode_DE",
+            "description": "German documentation of keys and values"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Liability coverage limit": "s4i:EnumVehicleInsuranceBenefitCode#01",
+            "Accident insurance sum payable in the event of death": "s4i:EnumVehicleInsuranceBenefitCode#02",
+            "Accident insurance sum in the event of disability": "s4i:EnumVehicleInsuranceBenefitCode#03",
+            "Accident daily allowance": "s4i:EnumVehicleInsuranceBenefitCode#04",
+            "Accident-related hospital daily allowance": "s4i:EnumVehicleInsuranceBenefitCode#05",
+            "Accident insurance sum for a specified number of places": "s4i:EnumVehicleInsuranceBenefitCode#06",
+            "Sum insured": "s4i:EnumVehicleInsuranceBenefitCode#07",
+            "Maximum compensation amount": "s4i:EnumVehicleInsuranceBenefitCode#08",
+            "Sum insured at replacement value": "s4i:EnumVehicleInsuranceBenefitCode#09",
+            "Sum insured at current value": "s4i:EnumVehicleInsuranceBenefitCode#10",
+            "Restricted repair shop choice": "s4i:EnumVehicleInsuranceBenefitCode#11",
+            "Accident insurance sum for medical expenses": "s4i:EnumVehicleInsuranceBenefitCode#12",
+            "Number of places for accident insurance sum": "s4i:EnumVehicleInsuranceBenefitCode#13",
+            "Accident daily sickness allowance (including convalescence benefit)": "s4i:EnumVehicleInsuranceBenefitCode#14",
+            "Current sum insured": "s4i:EnumVehicleInsuranceBenefitCode#15",
+            "Sum insured based on fair market value": "s4i:EnumVehicleInsuranceBenefitCode#16",
+            "Sum insured for first risk": "s4i:EnumVehicleInsuranceBenefitCode#17",
+            "Annual maximum compensation": "s4i:EnumVehicleInsuranceBenefitCode#18",
+            "Sum insured according to terms and conditions": "s4i:EnumVehicleInsuranceBenefitCode#19",
+            "Aggregate limit": "s4i:EnumVehicleInsuranceBenefitCode#20",
+            "Total sum insured": "s4i:EnumVehicleInsuranceBenefitCode#21",
+            "Raised compensation limit": "s4i:EnumVehicleInsuranceBenefitCode#22"
+        }
+    }
+}

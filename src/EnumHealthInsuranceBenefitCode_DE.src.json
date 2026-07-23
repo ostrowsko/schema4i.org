@@ -1,0 +1,39 @@
+{
+    "type": "EnumHealthInsuranceBenefitCode_DE",
+    "uri": "http://schema4i.org/EnumHealthInsuranceBenefitCode_DE",
+    "description": "Ein Code, der die Details des 'Insurancebenefit's im Bereich einer Krankenversicherung beschreibt.",
+    "links": [{
+            "url": "http://schema4i.org/EnumHealthInsuranceBenefitCode",
+            "description": "Englische Dokumentation der Schlüsselwerte"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Versicherungssumme": "s4i:EnumHealthInsuranceBenefitCode#01", 
+            "Krankentagegeld nach ambulanter OP": "s4i:EnumHealthInsuranceBenefitCode#02", 
+            "Leistung ab Tag": "s4i:EnumHealthInsuranceBenefitCode#03", 
+            "Krankentagegeld": "s4i:EnumHealthInsuranceBenefitCode#04", 
+            "Krankenhaustagegeld": "s4i:EnumHealthInsuranceBenefitCode#05", 
+            "Pflegetagegeld": "s4i:EnumHealthInsuranceBenefitCode#06", 
+            "Kurtagegeld": "s4i:EnumHealthInsuranceBenefitCode#07", 
+            "Pflegeleistung / Pflegekosten": "s4i:EnumHealthInsuranceBenefitCode#08", 
+            "Versicherungssumme Aktuell": "s4i:EnumHealthInsuranceBenefitCode#09", 
+            "Beitragsrückerstattung": "s4i:EnumHealthInsuranceBenefitCode#10", 
+            "Beitragsentlastung Ansparphase": "s4i:EnumHealthInsuranceBenefitCode#11", 
+            "Beitragsentlastung Leistungsphase": "s4i:EnumHealthInsuranceBenefitCode#12", 
+            "Versicherungssumme nach allgemeinen Vertragsbedingungen": "s4i:EnumHealthInsuranceBenefitCode#13", 
+            "Gesamtversicherungssumme": "s4i:EnumHealthInsuranceBenefitCode#14", 
+            "Vorsorgekomponente": "s4i:EnumHealthInsuranceBenefitCode#15", 
+            "Budget": "s4i:EnumHealthInsuranceBenefitCode#16"
+        }
+    }
+}

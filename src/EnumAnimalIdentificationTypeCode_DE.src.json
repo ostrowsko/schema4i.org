@@ -1,0 +1,27 @@
+{
+    "type": "EnumAnimalIdentificationTypeCode_DE",
+    "uri": "http://schema4i.org/EnumAnimalIdentificationTypeCode_DE",
+    "description": "Ein Code der beschreibt wie ein Tier markiert wurde und identifiziert werden kann.",
+    "links": [{
+        "url": "http://schema4i.org/EnumAnimalIdentificationTypeCode",
+        "description": "Englische Dokumentation der Schlüsselwerte"
+    }],
+    "parents": [
+        { "@id": "http://schema4i.org/Animal#AnimalIdentificationType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Tätowierung": "s4i:EnumAnimalIdentificationTypeCode#01",
+            "Chip": "s4i:EnumAnimalIdentificationTypeCode#02",
+            "Brandzeichen": "s4i:EnumAnimalIdentificationTypeCode#03",
+            "Ohrmarkierung": "s4i:EnumAnimalIdentificationTypeCode#04",
+            "Sonstiges": "s4i:EnumAnimalIdentificationTypeCode#99"
+        }
+    }
+}

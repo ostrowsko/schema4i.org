@@ -51,6 +51,10 @@
                 "@id": "schema:containsPlace",
                 "@type": "s4i:Place"
             },
+            "GeoArea": {
+                "@id": "s4i:GeoArea",
+                "@type": "s4i:QuantitativeValue"
+            },
             "GeoContains": {
                 "@id": "schema:geoContains",
                 "@type": "s4i:Place"
@@ -220,6 +224,18 @@
                         "Identifier": "4711"
                     }
                 }
+            },
+            "GeoArea": {
+                "@context": {
+                    "UnitCode": {
+                        "@id": "http://schema.org/unitCode",
+                        "@type": "http://schema.org/Text"
+                    }
+                },
+                "@type": "QuantitativeValue",
+                "Value": 1457,
+                "UnitCode": "MTK",
+                "UnitText": "sqm"
             }
         },
         "context": {}

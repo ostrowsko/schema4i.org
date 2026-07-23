@@ -1,0 +1,54 @@
+{
+    "type": "EnumLifeInsuranceBenefitCode_DE",
+    "uri": "http://schema4i.org/EnumLifeInsuranceBenefitCode_DE",
+    "description": "Ein Code, der die Details des 'Insurancebenefit's im Bereich einer Lebensversicherung beschreibt.",
+    "links": [{
+            "url": "http://schema4i.org/EnumLifeInsuranceBenefitCode",
+            "description": "Englische Dokumentation der Schlüsselwerte"
+        }
+    ],
+    "parents": [
+        { "@id": "http://schema4i.org/InsuranceBenefit#BenefitType" }
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Enumeration" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "Ablaufleistung ": "s4i:EnumLifeInsuranceBenefitCode#01",
+            "Rente ": "s4i:EnumLifeInsuranceBenefitCode#02",
+            "Todesfallleistung": "s4i:EnumLifeInsuranceBenefitCode#03",
+            "Versicherungssumme": "s4i:EnumLifeInsuranceBenefitCode#04",
+            "Rentenzahlung bis Alter": "s4i:EnumLifeInsuranceBenefitCode#05",
+            "Pflegeleistung": "s4i:EnumLifeInsuranceBenefitCode#06",
+            "Sofortleistung": "s4i:EnumLifeInsuranceBenefitCode#07",
+            "aktuelle Versicherungssumme": "s4i:EnumLifeInsuranceBenefitCode#08",
+            "Policendarlehen": "s4i:EnumLifeInsuranceBenefitCode#09",
+            "Risikovorlauf": "s4i:EnumLifeInsuranceBenefitCode#10",
+            "Hinterbliebenenrente ": "s4i:EnumLifeInsuranceBenefitCode#11",
+            "Versicherungssumme nach Allgemeinen Vertragsbedingungen": "s4i:EnumLifeInsuranceBenefitCode#12",
+            "Gesamtversicherungssumme": "s4i:EnumLifeInsuranceBenefitCode#13",
+            "zugeteilte Überschüsse für Ablaufleistung": "s4i:EnumLifeInsuranceBenefitCode#14",
+            "zugeteilte Überschüsse für Rente": "s4i:EnumLifeInsuranceBenefitCode#15",
+            "zugeteilte Überschüsse für Todesfallleistung": "s4i:EnumLifeInsuranceBenefitCode#16",
+            "zugeteilte Überschüsse für Pflegerente": "s4i:EnumLifeInsuranceBenefitCode#17",
+            "Entnahmemöglichkeit": "s4i:EnumLifeInsuranceBenefitCode#18",
+            "gesamter Beleihungswert": "s4i:EnumLifeInsuranceBenefitCode#19",
+            "verfügbarer Beleihungswert": "s4i:EnumLifeInsuranceBenefitCode#20",
+            "letzte erhaltene Zulage": "s4i:EnumLifeInsuranceBenefitCode#21",
+            "Summe erhaltene Zulagen": "s4i:EnumLifeInsuranceBenefitCode#22",
+            "letzte Sonderzuzahlung": "s4i:EnumLifeInsuranceBenefitCode#23",
+            "Summe der Sonderzuzahlungen": "s4i:EnumLifeInsuranceBenefitCode#24",
+            "Rückkaufswert": "s4i:EnumLifeInsuranceBenefitCode#25",
+            "Summe gezahlter Beiträge": "s4i:EnumLifeInsuranceBenefitCode#26",
+            "Vertragswert": "s4i:EnumLifeInsuranceBenefitCode#27",
+            "Rückgewährsumme": "s4i:EnumLifeInsuranceBenefitCode#28",
+            "Überschussguthaben": "s4i:EnumLifeInsuranceBenefitCode#29",
+            "Anteil an den Bewertungsreserven": "s4i:EnumLifeInsuranceBenefitCode#30",
+            "Fondsguthaben aller Fonds": "s4i:EnumLifeInsuranceBenefitCode#31"
+        }
+    }
+}

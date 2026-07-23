@@ -1,0 +1,80 @@
+{
+    "type": "Machine",
+    "uri": "http://schema4i.org/Machine",
+    "description": "A Machine is a device that is designed or used to perform work, typically involving mechanical, electrical, or other forms of energy.",
+    "links": [],
+    "parents": [
+    ],
+    "base": [
+        { "@id": "http://schema4i.org/Product" }
+    ],
+    "multipletypes": {},
+    "context": {
+        "@context": {
+            "@version": 1.1,
+            "s4i": "http://schema4i.org/",
+            "schema": "http://schema.org/",
+            "oo": "https://schema.openontology.org/",
+            "Machine": "s4i:Machine",
+            "Category": {
+                "@id": "schema:category",
+                "@type": "@vocab",
+                "@context": {
+                    "@vocab": "s4i:EnumMachineCategoryCode#"
+                }
+            },
+            "Location": {
+                "@id": "schema:location",
+                "@type": "s4i:Place"
+            },
+            "Yield": {
+                "@id": "schema:yield",
+                "@type": "s4i:QuantitativeValue"
+            }
+        }
+    },
+    "playground": [{
+        "title": "An example Machine",
+        "tab": "tab-expanded",
+        "input": {
+            "@context": [
+                "http://schema4i.org/Thing.jsonld",
+                "http://schema4i.org/Product.jsonld",
+                "http://schema4i.org/Machine.jsonld",
+                "http://schema4i.org/Person.jsonld",
+                "http://schema4i.org/QuantitativeValue.jsonld",
+                {
+                    "Owner": {
+                        "@id": "s4i:Owner",
+                        "@type": "s4i:Person"
+                    },
+                    "Category": {
+                        "@type": "@vocab",
+                        "@vocab": "s4i:EnumMachineCategoryCode#"
+                    }
+                }
+            ],
+            "@type": "s4i:Machine",
+            "Manufacturer": {
+                "@type": "s4i:Organization"
+            },
+            "ProductionDate": "2020-07-16",
+            "Category": "1480",
+            "Location": {
+                "@type": "s4i:PostalAddress"
+            },
+            "Yield": {
+                "@context": {
+                    "UnitCode": {
+                        "@type": "@vocab",
+                        "@vocab":"s4i:EnumValueUnitCode#"
+                    }
+                },
+                "@type": "s4i:QuantitativeValue",
+                "Value": 1000,
+                "UnitCode": "70"
+            }
+        },
+        "context": {}
+    }]
+}
